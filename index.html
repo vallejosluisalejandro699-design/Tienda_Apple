@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple Store - Proyecto Universitario</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>Apple Store</h1>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#acerca">Acerca de</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="cart-icon" id="cart-icon">
+                <span id="cart-count">0</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sección de Información del Proyecto -->
+    <section id="info-proyecto" class="info-proyecto">
+        <div class="container">
+            <h2>Proyecto Universitario</h2>
+            <div class="info-content">
+                <p><strong>Estudiante:</strong> <span id="Luis Alejandro Vallejos">Luis Alejandro Vallejos</span></p>
+                <p><strong>Materia:</strong> <span id="Contexto de Ingenieria de Software">Contexto de Ingenieria de Software</span></p>
+                <p><strong>Universidad:</strong>Universidad Cooperativa de Colombia</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Los últimos iPhone</h2>
+                <p>Descubre la innovación y el diseño que definen el futuro</p>
+                <a href="#productos" class="btn">Ver Productos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Productos -->
+    <section id="productos" class="productos">
+        <div class="container">
+            <h2>Nuestros Productos</h2>
+            <div class="productos-grid" id="productos-grid">
+                <!-- Los productos se cargarán dinámicamente con JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Acerca de -->
+    <section id="acerca" class="acerca">
+        <div class="container">
+            <h2>Acerca de Apple</h2>
+            <p>Apple Inc. es una empresa multinacional estadounidense que diseña y produce equipos electrónicos, software y servicios en línea. Fundada por Steve Jobs, Steve Wozniak y Ronald Wayne en 1976, Apple es conocida por su innovación y diseño de vanguardia.</p>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto">
+        <div class="container">
+            <h2>Contacto</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="Nombre" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Mensaje" required></textarea>
+                <button type="submit" class="btn">Enviar Mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 Apple Store - Proyecto Universitario. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
